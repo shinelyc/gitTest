@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden ;
+}
+
+body,input,button {
+	font-family: "微软雅黑";
+}
+
+.header {
+	width:100%;
+	height: 5.7rem;
+	background: url(../img/logo.png) no-repeat center 2.04rem #ebebeb;
+	background-size: 5.14rem 1.22rem;
+	text-align: center;
+	border-bottom:0.02rem solid #dadada;
+}
+
+.header-title {
+	font-size: 0.4rem;
+	color: #333;
+	letter-spacing: 0.2rem;
+	padding-top: 3.58rem;
+}
+
+.header-title span {
+	padding:0 0.26rem
+}
+
+.label-group {
+	height: 1.98rem;
+	line-height: 1.98rem;
+	border-bottom: 0.02rem solid #dadada;
+	margin: 0 0.4rem;
+	color: #a6a6a6;
+	font-size: 0.64rem;
+}
+
+.label-group input {
+	width: 7.84rem;
+	height: 1.98rem;
+	outline: none;
+	margin-left:1.16rem;
+	border: none;
+	color: #333;
+	font-size: 0.64rem;	
+	letter-spacing: 0.04rem;
+}
+
+ ::-webkit-input-placeholder {
+     color: #ccc;
+}
+        
+.label-group button {
+	border: none;
+	outline: none;
+	background: none;
+	color: #07ca61;
+	font-size: 0.64rem;
+	text-align: right;	
+}
+
+.tips {
+	height: 1.3rem;
+	line-height: 1.3rem;
+	background: url(../img/icon-1.png) no-repeat 0.04rem center ;
+	background-size: 0.48rem 0.48rem;
+	margin-left:0.4rem;
+	font-size: 0.56rem;
+	letter-spacing: 0.04rem;	
+	color: #969696;
+	padding-left: 0.66rem;
+}
+
+.tips i {
+	font-style: normal;
+	color: #07ca61;
+}
+
+.submit {
+	width:14.2rem;
+	height: 1.98rem;
+	line-height: 1.98rem;	
+	margin: 1.22rem 0.4rem 0 0.4rem;
+	border: none;
+	outline: none;
+	background: #07ca61;
+	color: #fff;
+	font-size: 0.64rem;
+	text-align: center;
+	border-radius: 0.1rem;
+}
